@@ -141,7 +141,7 @@ def download_all_repos(repo_list, path):
     for repo in repo_list:
         count += 1
         print("------" + str(count) + "/"+ str(len(repo_list)) + " ------")
-        download_repo(url[1], path)
+        download_repo(repo[1], path)
 
 # Download a repo
 def download_repo(url, path):
