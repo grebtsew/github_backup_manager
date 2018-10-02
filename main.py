@@ -1,5 +1,4 @@
 #Imports
-import pycurl
 import os
 import platform
 import ntpath
@@ -280,6 +279,7 @@ def main():
     if(len(github_pretty_array) > 0):
         download_size = get_download_size(github_pretty_array)
     else:
+
         github_pretty_array = create_information_array_github_api(repos_that_need_to_be_downloaded)
         download_size = get_download_size(github_pretty_array)
 
