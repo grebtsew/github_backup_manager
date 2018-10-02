@@ -11,7 +11,7 @@ from datetime import datetime
 Modify these variables!
 '''
 
-destination_path = "C:\\Users\\Daniel\\Documents\\GitHub"
+destination_path = "E:\\Programming"
 user_name = "grebtsew"
 
 '''
